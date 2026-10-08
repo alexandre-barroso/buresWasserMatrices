@@ -1,0 +1,81 @@
+{
+  "lean_toolchain": "leanprover/lean4:v4.34.0",
+  "lean_commit": "293d5d0c0c3f3dded4688b3ccd6a33939ac5102b",
+  "lake": "5.0.0-src+293d5d0 (bundled with pinned Lean; no separate installation)",
+  "mathlib": {
+    "url": "https://github.com/leanprover-community/mathlib4",
+    "tag": "v4.34.0",
+    "commit": "5ed2965256430c3649e86755f9576b54eca72435",
+    "manifest_sha256": "8f67b2cf24143ac091cdb425e886c2164b2fc2d6fbccd6db9454b697f9541a67",
+    "license_sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1"
+  },
+  "dependencies": [
+    {
+      "name": "plausible",
+      "url": "https://github.com/leanprover-community/plausible",
+      "commit": "118aa17ee84656b8bd727fef7c458ee8c833385c"
+    },
+    {
+      "name": "LeanSearchClient",
+      "url": "https://github.com/leanprover-community/LeanSearchClient",
+      "commit": "ddf04cf3949fa556442341e87d47f9f6e6074707"
+    },
+    {
+      "name": "importGraph",
+      "url": "https://github.com/leanprover-community/import-graph",
+      "commit": "e928b72544873815af278d38681b31c0293588e3"
+    },
+    {
+      "name": "proofwidgets",
+      "url": "https://github.com/leanprover-community/ProofWidgets4",
+      "commit": "106ff4fafc74ef4ac99d81dbf3ab399118f497a5"
+    },
+    {
+      "name": "aesop",
+      "url": "https://github.com/leanprover-community/aesop",
+      "commit": "355695d523e41d0554926416cba2a2b3544fbbc9"
+    },
+    {
+      "name": "Qq",
+      "url": "https://github.com/leanprover-community/quote4",
+      "commit": "6a489d9af5d0c47e5b259e2e8bcdfc1811b5a259"
+    },
+    {
+      "name": "batteries",
+      "url": "https://github.com/leanprover-community/batteries",
+      "commit": "f2effa3d803fda822b1f97b806c47cf2adfbcbc2"
+    },
+    {
+      "name": "Cli",
+      "url": "https://github.com/leanprover/lean4-cli",
+      "commit": "e92c9f15fdfacc8536f31cfb3b7ad26c3c8cd204"
+    }
+  ],
+  "python": {
+    "minimum": "3.11",
+    "formal_and_decimal": "standard library only",
+    "analysis_requirement": "numpy==2.4.4",
+    "figure_requirement": "matplotlib==3.10.9",
+    "reviewed_original_results": {
+      "python": "3.12.3",
+      "numpy": "2.4.4"
+    },
+    "selected_available_runtime": {
+      "python": "3.12.3",
+      "numpy": "2.4.4",
+      "matplotlib": "3.10.9"
+    },
+    "portable_minimum_note": "Formal verification needs Python 3.11+; install the exact optional dependency pins for data/figure reproduction."
+  },
+  "kernel_replay": "official leanchecker --fresh; same Lean kernel, not independent implementation",
+  "linux_ci_archive": {
+    "url": "https://github.com/leanprover/lean4/releases/download/v4.34.0/lean-4.34.0-linux.tar.zst",
+    "sha256": "caaa98356098c85dc0fcbbd28e1ec66f39eb6551829972b752ff20e1286b646b",
+    "metadata_source": "https://api.github.com/repos/leanprover/lean4/releases/tags/v4.34.0"
+  },
+  "ci_action_commits": {
+    "actions/checkout": "11d5960a326750d5838078e36cf38b85af677262",
+    "actions/setup-python": "a26af69be951a213d495a4c3e4e4022e16d87065"
+  },
+  "ci_status": "configuration only; no hosted execution claimed"
+}

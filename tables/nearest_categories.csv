@@ -1,0 +1,109 @@
+representation,group,reference,possible_unique,guaranteed_unique,retained_covariance,diagonal,centroid
+raw_hz,men,iy,ei,ei,ei,ei,ei
+raw_hz,men,ih,ei,ei,ei,ei,ei
+raw_hz,men,ei,ih,ih,ih,ih,ih
+raw_hz,men,eh,ae,ae,ae,ae,ae
+raw_hz,men,ae,eh,eh,eh,eh,eh
+raw_hz,men,ah,uh,uh,uh,uh,uh
+raw_hz,men,aw,uh,uh,uh,uh,uh
+raw_hz,men,oa,uw,uw,uw,uw,uw
+raw_hz,men,oo,uw uh,,uw,uw,uw
+raw_hz,men,uw,oa oo,,oa,oa,oa
+raw_hz,men,uh,aw oo,,aw,aw,aw
+raw_hz,men,er,uh,uh,uh,uh,uh
+raw_hz,women,iy,ei,ei,ei,ei,ei
+raw_hz,women,ih,ei,ei,ei,ei,ei
+raw_hz,women,ei,ih,ih,ih,ih,ih
+raw_hz,women,eh,ae,ae,ae,ae,ae
+raw_hz,women,ae,ih,ih,ih,ih,ih
+raw_hz,women,ah,uh,uh,uh,uh,uh
+raw_hz,women,aw,uh,uh,uh,uh,uh
+raw_hz,women,oa,uw,uw,uw,uw,uw
+raw_hz,women,oo,uw,uw,uw,uw,uw
+raw_hz,women,uw,oa oo,,oo,oo,oa
+raw_hz,women,uh,ah aw,,ah,ah,ah
+raw_hz,women,er,uh,uh,uh,uh,uh
+raw_hz,children,iy,ei,ei,ei,ei,ei
+raw_hz,children,ih,ei,ei,ei,ei,ei
+raw_hz,children,ei,ih,ih,ih,ih,ih
+raw_hz,children,eh,ae,ae,ae,ae,ae
+raw_hz,children,ae,ih ei eh,,ei,ei,ih
+raw_hz,children,ah,uh,uh,uh,uh,uh
+raw_hz,children,aw,oa uh,,uh,uh,uh
+raw_hz,children,oa,aw,aw,aw,aw,uw
+raw_hz,children,oo,uw uh er,,uh,uh,uw
+raw_hz,children,uw,oo,oo,oo,oo,oo
+raw_hz,children,uh,oo,oo,oo,oo,oo
+raw_hz,children,er,oo uh,,oo,oo,oo
+raw_complete,men,iy,ei,ei,ei,ei,ei
+raw_complete,men,ih,ei,ei,ei,ei,ei
+raw_complete,men,ei,ih,ih,ih,ih,ih
+raw_complete,men,eh,ae,ae,ae,ae,ae
+raw_complete,men,ae,eh,eh,eh,eh,eh
+raw_complete,men,ah,uh,uh,uh,uh,uh
+raw_complete,men,aw,uh,uh,uh,uh,uh
+raw_complete,men,oa,uw,uw,uw,uw,uw
+raw_complete,men,oo,uw uh,,uw,uw,uw
+raw_complete,men,uw,oa oo,,oa,oa,oa
+raw_complete,men,uh,aw oo,,aw,aw,aw
+raw_complete,men,er,uh,uh,uh,uh,uh
+raw_complete,women,iy,ei,ei,ei,ei,ei
+raw_complete,women,ih,ei,ei,ei,ei,ei
+raw_complete,women,ei,ih,ih,ih,ih,ih
+raw_complete,women,eh,ae,ae,ae,ae,ae
+raw_complete,women,ae,ih,ih,ih,ih,ih
+raw_complete,women,ah,uh,uh,uh,uh,uh
+raw_complete,women,aw,uh,uh,uh,uh,uh
+raw_complete,women,oa,uw,uw,uw,uw,uw
+raw_complete,women,oo,uw,uw,uw,uw,uw
+raw_complete,women,uw,oa oo,,oo,oo,oa
+raw_complete,women,uh,ah aw,,ah,ah,ah
+raw_complete,women,er,uh,uh,uh,uh,uh
+raw_complete,children,iy,ei,ei,ei,ei,ei
+raw_complete,children,ih,ei,ei,ei,ei,ei
+raw_complete,children,ei,ih,ih,ih,ih,ih
+raw_complete,children,eh,ae,ae,ae,ae,ae
+raw_complete,children,ae,ih ei eh,,ei,ei,ei
+raw_complete,children,ah,uh,uh,uh,uh,uh
+raw_complete,children,aw,oa uh,,uh,uh,uh
+raw_complete,children,oa,aw,aw,aw,aw,uw
+raw_complete,children,oo,uw uh er,,uh,uh,uw
+raw_complete,children,uw,oo,oo,oo,oo,oo
+raw_complete,children,uh,oo,oo,oo,oo,oo
+raw_complete,children,er,oo uh,,oo,oo,oo
+lobanov_complete,men,iy,ih,ih,ih,ih,ih
+lobanov_complete,men,ih,ei,ei,ei,ei,ei
+lobanov_complete,men,ei,ih,ih,ih,ih,ih
+lobanov_complete,men,eh,ae,ae,ae,ae,ae
+lobanov_complete,men,ae,eh,eh,eh,eh,eh
+lobanov_complete,men,ah,aw,aw,aw,aw,aw
+lobanov_complete,men,aw,uh,uh,uh,uh,uh
+lobanov_complete,men,oa,oo,oo,oo,oo,oo
+lobanov_complete,men,oo,oa er,,oa,oa,oa
+lobanov_complete,men,uw,oo,oo,oo,oo,oo
+lobanov_complete,men,uh,aw,aw,aw,aw,aw
+lobanov_complete,men,er,oo,oo,oo,oo,oo
+lobanov_complete,women,iy,ih ei,,ih,ih,ih
+lobanov_complete,women,ih,ei,ei,ei,ei,ei
+lobanov_complete,women,ei,ih,ih,ih,ih,ih
+lobanov_complete,women,eh,ae,ae,ae,ae,ae
+lobanov_complete,women,ae,eh,eh,eh,eh,eh
+lobanov_complete,women,ah,aw,aw,aw,aw,aw
+lobanov_complete,women,aw,uh,uh,uh,uh,uh
+lobanov_complete,women,oa,oo,oo,oo,oo,oo
+lobanov_complete,women,oo,oa uw,,oa,oa,oa
+lobanov_complete,women,uw,oo,oo,oo,oo,oo
+lobanov_complete,women,uh,aw,aw,aw,aw,aw
+lobanov_complete,women,er,oo,oo,oo,oo,oo
+lobanov_complete,children,iy,ih,ih,ih,ih,ih
+lobanov_complete,children,ih,ei,ei,ei,ei,ei
+lobanov_complete,children,ei,ih,ih,ih,ih,ih
+lobanov_complete,children,eh,ae,ae,ae,ae,ae
+lobanov_complete,children,ae,eh,eh,eh,eh,eh
+lobanov_complete,children,ah,aw,aw,aw,aw,aw
+lobanov_complete,children,aw,uh,uh,uh,uh,uh
+lobanov_complete,children,oa,oo,oo,oo,oo,oo
+lobanov_complete,children,oo,er,er,er,er,er
+lobanov_complete,children,uw,oo,oo,oo,oo,oo
+lobanov_complete,children,uh,aw,aw,aw,aw,aw
+lobanov_complete,children,er,oo,oo,oo,oo,oo

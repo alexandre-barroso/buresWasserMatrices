@@ -1,0 +1,154 @@
+{
+  "modules": {
+    "RankOneBridge": {
+      "source": "RankOneBridge.lean",
+      "sha256": "63badd7d067bacbc018351a97cb1554756e3f72b9b0620807c1d5cae44837ae5",
+      "namespace": "CovarianceCompletion",
+      "declarations": [
+        "CovarianceCompletion.outer",
+        "CovarianceCompletion.sqNorm",
+        "CovarianceCompletion.fidelity",
+        "CovarianceCompletion.outer_posSemidef",
+        "CovarianceCompletion.outer_diagonal",
+        "CovarianceCompletion.outer_rank_le_one",
+        "CovarianceCompletion.sqNorm_nonneg",
+        "CovarianceCompletion.sqNorm_eq_zero_iff",
+        "CovarianceCompletion.sqNorm_pos",
+        "CovarianceCompletion.outer_mul_self",
+        "CovarianceCompletion.outer_sandwich",
+        "CovarianceCompletion.trace_outer",
+        "CovarianceCompletion.sqrt_outer",
+        "CovarianceCompletion.sqrt_smul_outer",
+        "CovarianceCompletion.trace_sqrt_outer",
+        "CovarianceCompletion.fidelity_outer",
+        "CovarianceCompletion.gram",
+        "CovarianceCompletion.gram_posSemidef",
+        "CovarianceCompletion.gram_diagonal",
+        "CovarianceCompletion.gram_rank_le",
+        "CovarianceCompletion.fidelity_outer_gram",
+        "CovarianceCompletion.rank_two_gram_witness",
+        "CovarianceCompletion.planarRows",
+        "CovarianceCompletion.planarRows_properties",
+        "CovarianceCompletion.planar_covariance_witness",
+        "CovarianceCompletion.completion",
+        "CovarianceCompletion.outer_completion",
+        "CovarianceCompletion.completion_trace",
+        "CovarianceCompletion.buresSqWithMean",
+        "CovarianceCompletion.planar_distance_witness",
+        "CovarianceCompletion.fidelity_outer_outer",
+        "CovarianceCompletion.lower_endpoint_attained",
+        "CovarianceCompletion.common_reference_planar_witness",
+        "CovarianceCompletion.three_equal_variances_zero_fidelity"
+      ]
+    },
+    "PlanarResultant": {
+      "source": "PlanarResultant.lean",
+      "sha256": "58912a5d2492e889fb1716d4eaf06f300905646df3de0d82c18e3aad87c29dbd",
+      "namespace": "PlanarCompletion",
+      "declarations": [
+        "PlanarCompletion.two_vector_step",
+        "PlanarCompletion.rotate_resultant_to_axis",
+        "PlanarCompletion.maxWeight",
+        "PlanarCompletion.maxWeight_nonneg_le_sum",
+        "PlanarCompletion.lower_step",
+        "PlanarCompletion.choose_prefix_length",
+        "PlanarCompletion.attainable_normalized",
+        "PlanarCompletion.le_maxWeight",
+        "PlanarCompletion.maxWeight_le",
+        "PlanarCompletion.maxWeight_eq_sup'",
+        "PlanarCompletion.planar_resultant_exists"
+      ]
+    },
+    "GlobalEnclosure": {
+      "source": "GlobalEnclosure.lean",
+      "sha256": "8dd0e63c065b5c95a49997211d5f6bef1169358f0bc34992b4ad9eda29379549",
+      "namespace": "CovarianceEnclosure",
+      "declarations": [
+        "CovarianceEnclosure.isometry_factor_of_norm_eq",
+        "CovarianceEnclosure.real_conjTranspose",
+        "CovarianceEnclosure.euclideanLin_mul",
+        "CovarianceEnclosure.euclideanLin_adjoint",
+        "CovarianceEnclosure.norm_sq_euclideanLin",
+        "CovarianceEnclosure.trace_euclideanLin",
+        "CovarianceEnclosure.gram_posSemidef",
+        "CovarianceEnclosure.exists_polar_isometry",
+        "CovarianceEnclosure.traceNorm",
+        "CovarianceEnclosure.eigenvector_euclideanLin",
+        "CovarianceEnclosure.trace_isometries_posSemidef_le",
+        "CovarianceEnclosure.traceNorm_dual_upper",
+        "CovarianceEnclosure.traceNorm_dual_attained",
+        "CovarianceEnclosure.traceNorm_nonneg",
+        "CovarianceEnclosure.traceNorm_add_le",
+        "CovarianceEnclosure.traceNorm_neg",
+        "CovarianceEnclosure.traceNorm_sub_le",
+        "CovarianceEnclosure.traceNorm_sum_le",
+        "CovarianceEnclosure.traceNorm_vecMulVec",
+        "CovarianceEnclosure.traceNorm_sum_reverse",
+        "CovarianceEnclosure.mul_eq_sum_vecMulVec",
+        "CovarianceEnclosure.sqrt_transpose",
+        "CovarianceEnclosure.sqrt_col_sq",
+        "CovarianceEnclosure.sqrt_row_sq",
+        "CovarianceEnclosure.fidelity_eq_traceNorm",
+        "CovarianceEnclosure.fidelity_coordinate_bounds",
+        "CovarianceEnclosure.fidelity_enclosure"
+      ]
+    },
+    "CompleteInterval": {
+      "source": "CompleteInterval.lean",
+      "sha256": "3d307bef98129b37db542eb439f0c594139cb9b263eb0c8425410cbb1cde0c90",
+      "namespace": "CovarianceInterval",
+      "declarations": [
+        "CovarianceInterval.overlap",
+        "CovarianceInterval.residual",
+        "CovarianceInterval.total",
+        "CovarianceInterval.lower",
+        "CovarianceInterval.upper",
+        "CovarianceInterval.lower_eq_total_sub",
+        "CovarianceInterval.residual_bounds",
+        "CovarianceInterval.lower_le_upper",
+        "CovarianceInterval.lower_nonneg",
+        "CovarianceInterval.objective_eq_total",
+        "CovarianceInterval.objective_enclosure",
+        "CovarianceInterval.fixed_reference_fidelity_attainment",
+        "CovarianceInterval.fixed_reference_attainment",
+        "CovarianceInterval.fixed_reference_image",
+        "CovarianceInterval.complete_image",
+        "CovarianceInterval.common_reference_attainment",
+        "CovarianceInterval.common_reference_product_image"
+      ]
+    },
+    "OrderCriteria": {
+      "source": "OrderCriteria.lean",
+      "sha256": "0f94b97a8710de3751b38c543d249f46781d9a00eeb7c75a730827453d3edd3e",
+      "namespace": "CovarianceOrder",
+      "declarations": [
+        "CovarianceOrder.two_targets_attainment",
+        "CovarianceOrder.universal_strict_order_iff",
+        "CovarianceOrder.universal_nonstrict_order_iff",
+        "CovarianceOrder.strict_order_possible_iff",
+        "CovarianceOrder.both_strict_orders_iff"
+      ]
+    },
+    "NearestCriteria": {
+      "source": "NearestCriteria.lean",
+      "namespace": "CovarianceNearest",
+      "sha256": "415ac1c996c39cc884d38ef59ebbcfb682a46f0e173915c2c323d73bd623c8f3",
+      "declarations": [
+        "CovarianceNearest.selected_lower_other_upper_attainment",
+        "CovarianceNearest.possible_weak_nearest_iff",
+        "CovarianceNearest.possible_unique_nearest_iff",
+        "CovarianceNearest.guaranteed_weak_nearest_iff",
+        "CovarianceNearest.guaranteed_unique_nearest_iff"
+      ]
+    }
+  },
+  "total_declarations": 99,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "top_module": "NearestCriteria",
+  "scope": "Real PSD matrix/mean objective; exact interval, fixed reference, common-reference product and distinct-target order criteria.",
+  "extension_scope": "Four necessary-and-sufficient actual-real-PSD nearest-category criteria plus a shared-reference endpoint-attainment helper; independent of the empirical implementation."
+}

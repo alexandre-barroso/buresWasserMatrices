@@ -1,0 +1,2 @@
+# Optional archive-dependent analysis; formal and Decimal checks use only the standard library.
+numpy==2.4.4

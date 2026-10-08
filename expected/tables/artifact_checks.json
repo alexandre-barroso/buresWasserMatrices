@@ -1,0 +1,26 @@
+{
+  "status": "PASS_RECORDED_AGGREGATE_CONSISTENCY",
+  "inputs": {
+    "raw_hz": "3b7618d56c2b8f944cf411b71dc1d368fa1d91e5857e0c4a977f676d4a1eead9",
+    "raw_complete": "8639ec893a725ba80f43f6fb87ba1dc91b43f248781aa4fe3469124570dc8518",
+    "lobanov_complete": "09ca4aecb3bdb28aace634918cbef21e260041fa963261796be132f1bc95111a"
+  },
+  "compared_with": {},
+  "main_cohorts": 9,
+  "speaker_omissions": 399,
+  "plotted_references": 9,
+  "plotted_intervals": 20,
+  "csv_files": {
+    "nearest_categories.csv": "85ecca83f374125ef931f7d4f287b8574f8b4f442006bb613dc4f57094932575",
+    "sample_sizes.csv": "64d31be4166e0cf78fc19409694166a3e3d0c33bd9730483d2861d9693516d85",
+    "speaker_omissions.csv": "77daa41d63e8c947d837c8c15f448219005c7d673b61f35728f2ab0eedf3882b",
+    "summary_by_group.csv": "ef039b41d3c76fe3b63ed91128088e0a8c7b85375bf1d82872eafe6e1b61b542",
+    "summary_totals.csv": "44769fcefb624f77fd257fbd2501ba4a31dc79f566cad308cbf2526b4a4692c0",
+    "vowel_intervals.csv": "41285e9b8441e5e355421610b01164bdaa842d9f5fd1711ea3e3b2713fc2458d"
+  },
+  "limits": [
+    "No raw observations are loaded by this exporter.",
+    "Stored-result consistency does not by itself reproduce an empirical result.",
+    "Float tolerance for cross-runtime comparison is 5e-12 times max(1,abs(x),abs(y))."
+  ]
+}

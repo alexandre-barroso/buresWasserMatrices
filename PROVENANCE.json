@@ -1,0 +1,43 @@
+{
+  "scope": "Original proof/analysis sources and newly computed aggregate records only; no external dataset or literature copy.",
+  "proof_sources": {
+    "RankOneBridge": "63badd7d067bacbc018351a97cb1554756e3f72b9b0620807c1d5cae44837ae5",
+    "PlanarResultant": "58912a5d2492e889fb1716d4eaf06f300905646df3de0d82c18e3aad87c29dbd",
+    "GlobalEnclosure": "8dd0e63c065b5c95a49997211d5f6bef1169358f0bc34992b4ad9eda29379549",
+    "CompleteInterval": "3d307bef98129b37db542eb439f0c594139cb9b263eb0c8425410cbb1cde0c90",
+    "OrderCriteria": "0f94b97a8710de3751b38c543d249f46781d9a00eeb7c75a730827453d3edd3e",
+    "NearestCriteria": "415ac1c996c39cc884d38ef59ebbcfb682a46f0e173915c2c323d73bd623c8f3"
+  },
+  "original_analysis_sha256": "e82e4eee7af5f0357afb18193d4b25032151284641e68d8b0100d7f3fc8d3597",
+  "original_decimal_checker_sha256": "5ba151bbe78549e52633f814df5ab3473bc8a290768b1817aacc265a614ac3cd",
+  "portable_decimal_changes": [
+    "CLI results-root replaces a private directory convention",
+    "complete group/category/speaker/output coverage assertions",
+    "direct construction checks for the already reviewed 133 possible-nearest witnesses",
+    "fresh output-file guard and explicit optimized-Python rejection"
+  ],
+  "original_figure_source_sha256": "1d85d6c5907e6fc6f8e351596878a4228d02d3ad4b36acef6a6b09432f737660",
+  "portable_figure_changes": [
+    "CLI results and output-dir arguments",
+    "optional neutral author metadata",
+    "output and hash manifest; mathematical plot data/layout unchanged"
+  ],
+  "prior_formal_certificate_sha256": "eb22ebf78788c0ab444b7b6d41982d01113b2f6347781459104e66a964f7a9d7",
+  "prior_independent_decimal_results_sha256": "ec0d2b37209b57e4b194ba217e7b7a453b1302ba1e72373336319391b81e78ac",
+  "prior_witness_audit_sha256": "3cbc617c74fe6b2c636c9449cbdd97be23b16396c81ec17fa25e0a7b881bf383",
+  "historical_evidence_note": "Hashes identify prior completed reviews; private audit logs and absolute paths are not bundled. Run verify.py for a fresh local outcome.",
+  "expected_results": {
+    "raw_hz": "3b7618d56c2b8f944cf411b71dc1d368fa1d91e5857e0c4a977f676d4a1eead9",
+    "raw_complete": "8639ec893a725ba80f43f6fb87ba1dc91b43f248781aa4fe3469124570dc8518",
+    "lobanov_complete": "09ca4aecb3bdb28aace634918cbef21e260041fa963261796be132f1bc95111a"
+  },
+  "public_data": {
+    "repository": "https://github.com/santiagobarreda/hillenbrand_et_al_1995",
+    "commit": "6dd44decc8ef5b537cbb54732a3b00c8fa652e65",
+    "archive_sha256": "2560548591e3a726c88549b6dc9d226995616c26874d601c69fee8b9eee9d730",
+    "archive_bundled": false
+  },
+  "publication_claim": false,
+  "license_grant_included": false,
+  "hosted_ci_execution_claim": false
+}

@@ -1,0 +1,10 @@
+representation,group,order_questions,exact_certified,loose_certified,exact_additional,full_diagonal_different_orders,full_centroid_different_orders,guaranteed_nearest_references,diagonal_full_nearest_changes
+raw_hz,men,660,654,627,27,0,1,9,0
+raw_hz,women,660,649,624,25,0,2,10,0
+raw_hz,children,660,642,600,42,1,5,8,0
+raw_complete,men,660,654,627,27,0,1,9,0
+raw_complete,women,660,650,621,29,1,2,10,0
+raw_complete,children,660,639,601,38,0,8,8,0
+lobanov_complete,men,660,642,637,5,0,0,11,0
+lobanov_complete,women,660,648,626,22,0,0,10,0
+lobanov_complete,children,660,638,616,22,0,1,12,0

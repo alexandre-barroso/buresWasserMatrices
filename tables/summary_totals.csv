@@ -1,0 +1,4 @@
+representation,order_questions,exact_certified,loose_certified,exact_additional,full_diagonal_different_orders,full_centroid_different_orders,guaranteed_nearest_references,diagonal_full_nearest_changes
+raw_hz,1980,1945,1851,94,1,8,27,0
+raw_complete,1980,1943,1849,94,1,11,27,0
+lobanov_complete,1980,1928,1879,49,0,1,33,0

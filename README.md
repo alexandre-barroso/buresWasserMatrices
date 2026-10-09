@@ -23,8 +23,6 @@ The empirical audit uses finite-dataset means and sample covariances (denominato
 | `DATA.md`, `PROVENANCE.json` | Input access, exact hashes, analysis choices and source continuity |
 | `author_only/CITATION.cff` | Named sole-author citation metadata; omit the entire directory from a blind snapshot |
 
-No third-party source libraries, reference full texts, raw archive, audio, serialized R objects, private input files, or build caches are included. The snapshot carries no publication URL, release DOI or license grant. Generated verification logs belong outside the repository. Original plot exports use the named author unless `--anonymous-figures` is selected; that flag alone does not anonymize repository sources or the author-only directory.
-
 ## Pinned environment
 
 Formal verification, rational checks, aggregate CSV checks and the Decimal audit require Python 3.11 or newer and its standard library. The selected installed environment for the full pipeline is Python 3.12.3, NumPy 2.4.4 and Matplotlib 3.10.9; the earlier proof/Decimal review also used Python 3.12.14. Optional dependency pins are in `requirements-benchmark.txt` and `requirements-figures.txt`. Install them in a chosen external environment if needed. Do not run with Python `-O`: assertions are active verification obligations.
@@ -73,11 +71,3 @@ python3 generate_vowel_figure.py --results expected/raw_hz/results.json --output
 ```
 
 Every output directory must be fresh. The commands read the supplied ZIP in place and do not extract, modify or copy it. No network access, publication or account operation is performed by `verify.py`.
-
-## What a passing report establishes
-
-The formal chain proves the explicit real matrix-square-root trace objective and its interval/order/nearest statements. Fresh replay uses the official **same Lean kernel**, not an independent kernel implementation. Gaussian probability laws, a Python-to-Lean bridge, the manuscript's positive-definite limiting argument and other separately supported examples are outside this certificate.
-
-The benchmark checks finite-data arithmetic and reporting decisions. They do not establish population inference, confidence levels, perception, causation, novelty or general acoustic metric superiority. Decimal square roots are rounded; this is not certified interval arithmetic. Omission analyses are deterministic sensitivity checks, not a bootstrap or confidence interval. A possible-nearest witness changes the reference covariance to `aaᵀ`, generally different from the retained reference covariance.
-
-The stored result files preserve the original exploratory creation status verbatim. The separate verifier report records the actual reproduction/audit outcome without rewriting those historical result bytes. The CI workflow is configuration only; it does not attest to hosted execution and its default run does not download the benchmark or export figures.

@@ -1,8 +1,0 @@
-cff-version: 1.2.0
-message: "If you use this research software, cite it using these metadata."
-title: "Bures–Wasserstein completion intervals and vowel-summary reporting audits"
-type: software
-authors:
-  - family-names: "Barroso"
-    given-names: "Alexandre Menezes"
-abstract: "Original Lean proofs of complete real PSD distance intervals, common-reference ordering and nearest-category criteria, with exact synthetic checks and a reproducible public vowel-summary benchmark."
